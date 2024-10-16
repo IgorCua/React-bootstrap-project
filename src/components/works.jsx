@@ -104,7 +104,7 @@ export default function Works() {
                                 <Col sm={4} key={work.id}>
                                     <div className="portfolio-wrapper">
                                         <a href={work.link}>
-                                            <Image src={work.image} />
+                                            <Image src={work.image} fluid/>
                                             <div className="label text-center">
                                                 <h3>{work.title}</h3>
                                                 <p>{work.subtitle}</p>

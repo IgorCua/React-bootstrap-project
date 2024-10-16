@@ -25,8 +25,11 @@ body {
 }
 
 img {
-  max-width: 100%;
+  display: 'block';
+  /* object-fit: contain; */
+  width: 100%;
   height: auto;
+  /* max-height: 231.25px; */
   vertical-align: top;
 }
 
@@ -560,6 +563,11 @@ textarea {
 .works-block .portfoliolist>div {
   padding: 15px;
   overflow: hidden;
+  min-height: 261.25px;
+}
+
+.works-block img {
+  max-height: 231.25px;
 }
 
 .works-block .portfoliolist>div img {
