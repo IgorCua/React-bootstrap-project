@@ -56,7 +56,7 @@ export default function Services() {
                 <Row>
                     {servicesData.map((service) => {
                         return (
-                            <Col sm={4} className="holder">
+                            <Col key={service.id} sm={4} className="holder">
                                 {/* icons created with font awesome */}
                                 <div className="icon">
                                     <i className={service.icon}></i>

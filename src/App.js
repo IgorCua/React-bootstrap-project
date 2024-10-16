@@ -5,6 +5,10 @@ import Header from './components/header';
 import Hero from './components/hero';
 import About from './components/about';
 import Services from './components/services';
+import Works from './components/works';
+import Teams from './components/teams';
+import Testimonials from './components/testimonials';
+import Pricing from './components/pricing';
 
 function App() {
   return (
@@ -16,6 +20,10 @@ function App() {
         <Hero/>
         <About/>
         <Services/>
+        <Works/>
+        <Teams/>
+        <Testimonials/>
+        <Pricing/>
       </main>
     </div>
   );
