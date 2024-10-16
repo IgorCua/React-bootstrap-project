@@ -4,7 +4,7 @@ const pricingData = [
     {
         id: 1,
         plan: "Basic",
-        price: "£49",
+        price: "$49",
         features: [
             "Wireframing",
             "Visual Design",
@@ -17,7 +17,7 @@ const pricingData = [
     {
         id: 2,
         plan: "Premium",
-        price: "£149",
+        price: "$149",
         features: [
             "Wireframing",
             "Visual Design",
@@ -30,7 +30,7 @@ const pricingData = [
     {
         id: 3,
         plan: "Ultimate",
-        price: "£349",
+        price: "$349",
         features: [
             "Wireframing",
             "Visual Design",
@@ -70,7 +70,7 @@ export default function Pricing() {
                                     </ListGroup>
                                 </div>
                                 <div className="btn-holder">
-                                    <a href="#" className="btn btn-primary">
+                                    <a href={data.link} className="btn btn-primary">
                                         Order now
                                     </a>
                                 </div>

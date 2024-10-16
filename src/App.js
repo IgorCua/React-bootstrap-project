@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './components/header';
@@ -9,6 +8,9 @@ import Works from './components/works';
 import Teams from './components/teams';
 import Testimonials from './components/testimonials';
 import Pricing from './components/pricing';
+import Blog from './components/blog';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
         <Teams/>
         <Testimonials/>
         <Pricing/>
+        <Blog/>
+        <Contact/>
+        <Footer/>
       </main>
     </div>
   );

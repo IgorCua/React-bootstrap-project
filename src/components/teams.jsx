@@ -102,7 +102,7 @@ export default function Teams() {
                 <Row>
                     {teamsData.map((team) => {
                         return (
-                            <Col sm={3}>
+                            <Col sm={3} key={team.id}>
                                 <div className="image">
                                     <Image src={team.image} alt='Image'/>
                                     <div className="overlay">
